@@ -1,0 +1,22 @@
+# Ignorar archivos de configuración locales
+*.env
+
+# Ignorar archivos generados automáticamente
+*.log
+*.tmp
+*.swp
+
+# Ignorar directorios específicos
+node_modules/
+build/
+dist/
+UI_visualiazacion_TG/firebase_sdk.json
+
+# Ignorar archivos de IDEs o editores
+.vscode/
+.idea/
+*.suo
+*.user
+
+
+
