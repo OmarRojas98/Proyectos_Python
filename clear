@@ -1,0 +1,202 @@
+[33mcommit fcee9b7858c4ca6de53f00875c4607aee55a0eea[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: OmarRojas98 <omaredrori30@gmail.com>
+Date:   Fri Aug 30 15:17:43 2024 -0500
+
+    Nuevos Archivos
+
+ UI_visualiazacion_TG/firebase_sdk.json | 13 [31m-------------[m
+ 1 file changed, 13 deletions(-)
+
+[33mcommit 41d8ac2d51a5a63f3d98861fd421f9cb03246f4d[m
+Author: OmarRojas98 <omaredrori30@gmail.com>
+Date:   Fri Aug 30 15:10:35 2024 -0500
+
+    Nuevos Archivos
+
+ chromedriver-win64.zip | Bin [31m8737982[m -> [32m0[m bytes
+ test_cisco.py          |   2 [31m--[m
+ 2 files changed, 2 deletions(-)
+
+[33mcommit 488906fdef301108c768fce5a83bec81a378d415[m
+Merge: 6fc0e9b d401b7c
+Author: OmarRojas98 <omaredrori30@gmail.com>
+Date:   Fri Aug 30 14:37:16 2024 -0500
+
+    Merge branch 'main' of https://github.com/OmarRojas98/Proyectos_Python
+
+[33mcommit 6fc0e9b6509d1cb1ca8d3bb5289125c2cba589f6[m
+Author: OmarRojas98 <omaredrori30@gmail.com>
+Date:   Fri Aug 30 14:32:47 2024 -0500
+
+    Nuevos Proyecto de relacionados con Concer Plaza
+
+ Concert_Plaza/.gitignore                           |    174 [32m+[m
+ Concert_Plaza/CHANGELOG.md                         |     65 [32m+[m
+ Concert_Plaza/Pipfile                              |     44 [32m+[m
+ Concert_Plaza/Pipfile.lock                         |   1092 [32m+[m
+ Concert_Plaza/README.md                            |     25 [32m+[m
+ Concert_Plaza/Venues list in Colombia - Rev 1.xlsx |    Bin [31m0[m -> [32m52080[m bytes
+ Concert_Plaza/__init__.py                          |      0
+ Concert_Plaza/config/__init__.py                   |      0
+ Concert_Plaza/config/settings.py                   |     31 [32m+[m
+ Concert_Plaza/constants.py                         |     11 [32m+[m
+ Concert_Plaza/exceptions.py                        |     54 [32m+[m
+ Concert_Plaza/files/bodytech_cartagena.html        |      1 [32m+[m
+ .../files/countries_plus_states_plus_cities.json   | 966198 [32m++++++++++++++++++[m
+ ...geonames-all-cities-with-a-population-1000.json |      1 [32m+[m
+ Concert_Plaza/files/velodrome.html                 |      1 [32m+[m
+ Concert_Plaza/main.py                              |     55 [32m+[m
+ Concert_Plaza/models/__init__.py                   |      0
+ Concert_Plaza/models/campaign.py                   |    121 [32m+[m
+ Concert_Plaza/routers/__init__.py                  |      0
+ Concert_Plaza/routers/maps_scraper/__init__.py     |      0
+ Concert_Plaza/routers/maps_scraper/maps_scraper.py |     37 [32m+[m
+ Concert_Plaza/routers/maps_scraper/router.py       |      9 [32m+[m
+ Concert_Plaza/routers/routers.py                   |      7 [32m+[m
+ Concert_Plaza/schemas/__init__.py                  |      0
+ Concert_Plaza/schemas/depends.py                   |    277 [32m+[m
+ Concert_Plaza/schemas/maps_scraper/__init__.py     |      0
+ Concert_Plaza/schemas/maps_scraper/company.py      |     27 [32m+[m
+ .../maps_scraper/google_business_category.py       |   3910 [32m+[m
+ .../schemas/maps_scraper/location_args.py          |     10 [32m+[m
+ .../schemas/maps_scraper/maps_html_identifiers.py  |     14 [32m+[m
+ Concert_Plaza/services/__init__.py                 |      0
+ .../services/aws_kinesis_eliminar/__init__.py      |      0
+ .../aws_kinesis_eliminar/data_analytics.py         |    335 [32m+[m
+ .../services/aws_kinesis_eliminar/data_streams.py  |    163 [32m+[m
+ .../aws_kinesis_eliminar/send_data_to_kinesis.py   |     35 [32m+[m
+ Concert_Plaza/services/campaign/campaign.py        |    215 [32m+[m
+ Concert_Plaza/services/campaign/subscriber.py      |     34 [32m+[m
+ Concert_Plaza/services/depends.py                  |     32 [32m+[m
+ .../services/landing_scrapper/__init__.py          |      0
+ Concert_Plaza/services/landing_scrapper/wraper.py  |     72 [32m+[m
+ Concert_Plaza/services/maps_bot.py                 |    103 [32m+[m
+ Concert_Plaza/services/maps_scraper/__init__.py    |      0
+ Concert_Plaza/services/maps_scraper/depends.py     |     64 [32m+[m
+ .../services/maps_scraper/landing_scrapper.py      |     21 [32m+[m
+ .../services/maps_scraper/maps_wrapper.py          |    197 [32m+[m
+ Concert_Plaza/tests/__init__.py                    |      0
+ Concert_Plaza/tests/test_maps_bot.py               |    405 [32m+[m
+ Concert_Plaza/version.py                           |      1 [32m+[m
+ SIMO_Scraper/.env                                  |      2 [32m+[m
+ SIMO_Scraper/Chrome_Driver/LICENSE.chromedriver    |     27 [32m+[m
+ .../Chrome_Driver/THIRD_PARTY_NOTICES.chromedriver |   8334 [32m+[m
+ SIMO_Scraper/Chrome_Driver/chromedriver.exe        |    Bin [31m0[m -> [32m17848320[m bytes
+ SIMO_Scraper/__pycache__/scraper.cpython-311.pyc   |    Bin [31m0[m -> [32m4585[m bytes
+ SIMO_Scraper/mein.py                               |     37 [32m+[m
+ SIMO_Scraper/scraper.py                            |     73 [32m+[m
+ UI_visualiazacion_TG/ActualizadorBarras.txt        |     66 [32m+[m
+ UI_visualiazacion_TG/Aplicativo_lib.py             |    449 [32m+[m
+ UI_visualiazacion_TG/DATA.csv                      |  66273 [32m++[m
+ UI_visualiazacion_TG/Funciones_basicas_lib.py      |    527 [32m+[m
+ UI_visualiazacion_TG/MBP_Mein.py                   |     48 [32m+[m
+ .../__pycache__/Aplicativo_lib.cpython-311.pyc     |    Bin [31m0[m -> [32m26021[m bytes
+ .../Funciones_basicas_lib.cpython-311.pyc          |    Bin [31m0[m -> [32m37523[m bytes
+ UI_visualiazacion_TG/assets/frame0/button_1.png    |    Bin [31m0[m -> [32m2132[m bytes
+ UI_visualiazacion_TG/assets/frame0/button_2.png    |    Bin [31m0[m -> [32m1985[m bytes
+ UI_visualiazacion_TG/assets/frame0/button_3.png    |    Bin [31m0[m -> [32m1655[m bytes
+ UI_visualiazacion_TG/assets/frame0/button_4.png    |    Bin [31m0[m -> [32m2980[m bytes
+ UI_visualiazacion_TG/assets/frame0/icon.ico        |    Bin [31m0[m -> [32m8044[m bytes
+ UI_visualiazacion_TG/data_save.txt                 |     66 [32m+[m
+ UI_visualiazacion_TG/data_update.txt               |     62 [32m+[m
+ UI_visualiazacion_TG/firebase_sdk.json             |     13 [32m+[m
+ Web+Scraping+Cheat+Sheet+2.0.pdf                   |    Bin [31m0[m -> [32m262909[m bytes
+ bandsintown_scraper/.env                           |      2 [32m+[m
+ bandsintown_scraper/Artista.json                   |  20644 [32m+[m
+ bandsintown_scraper/Artista_limpio.json            |  15772 [32m+[m
+ bandsintown_scraper/DB.json                        |  24385 [32m+[m
+ .../__pycache__/bst_scraper.cpython-311.pyc        |    Bin [31m0[m -> [32m5538[m bytes
+ bandsintown_scraper/archivo.csv                    |   1328 [32m+[m
+ bandsintown_scraper/archivo.xlsx                   |    Bin [31m0[m -> [32m59833[m bytes
+ bandsintown_scraper/archivo_limpio.json            |   2660 [32m+[m
+ bandsintown_scraper/bst_scraper.py                 |     75 [32m+[m
+ bandsintown_scraper/mein.py                        |    141 [32m+[m
+ bandsintown_scraper/test.ipynb                     |   1653 [32m+[m
+ chromedriver-win64.zip                             |    Bin [31m0[m -> [32m8737982[m bytes
+ script_audible_com/mein.py                         |      6 [32m+[m
+ script_audible_com/scrapy_audible.py               |     20 [32m+[m
+ test_cisco.py                                      |      2 [32m+[m
+ zz_chromedriver-win64/LICENSE.chromedriver         |     27 [32m+[m
+ .../THIRD_PARTY_NOTICES.chromedriver               |   8334 [32m+[m
+ zz_chromedriver-win64/chromedriver.exe             |    Bin [31m0[m -> [32m17848320[m bytes
+ 89 files changed, 1124867 insertions(+)
+
+[33mcommit dc820f5028f342588f1a043dd3b39f67a419984e[m
+Author: OmarRojas98 <omaredrori30@gmail.com>
+Date:   Sat Jul 27 00:38:20 2024 -0500
+
+    MicroPython MCP4725 sensor de temperatura
+
+ Sensor de temperatura/MCP4725.py    | 106 [32m++++++++++++++++++++++++++++++++++++[m
+ Sensor de temperatura/MCP4725_v2.py |  94 [32m++++++++++++++++++++++++++++++++[m
+ 2 files changed, 200 insertions(+)
+
+[33mcommit d401b7c43b357238213d3a7e335be0c8334ccc39[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: OmarRojas <omaredrori30@gmail.com>
+Date:   Sat Jul 27 00:32:38 2024 -0500
+
+    Create README.md
+    
+    Primer README
+
+ README.md | 61 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ 1 file changed, 61 insertions(+)
+
+[33mcommit c9434ab260882835d0cc45c3bbfeaed17b239f13[m
+Author: OmarRojas98 <omaredrori30@gmail.com>
+Date:   Sat Jul 27 00:13:58 2024 -0500
+
+    Mi segundo commit
+
+ .../Proyecto_Adnea_del_sue\303\261o.ipynb"         |    0
+ Script_recuperar_HTML/HTML_recovery.py             |   14 [32m+[m
+ Script_recuperar_HTML/html.html                    | 7842 [32m++++++++++++++++++++[m
+ Spotify_script/.env                                |    2 [32m+[m
+ Spotify_script/BBH100.csv                          |  101 [32m+[m
+ Spotify_script/Mein_jp.ipynb                       |  567 [32m++[m
+ Spotify_script/My_Spotify_fuctions.py              |  189 [32m+[m
+ .../My_Spotify_fuctions.cpython-311.pyc            |  Bin [31m0[m -> [32m8205[m bytes
+ Spotify_script/bbhot100                            |  101 [32m+[m
+ Spotify_script/billboardhot100                     |  101 [32m+[m
+ Spotify_script/mein.py                             |   30 [32m+[m
+ Top10 artista Spotify/Mein_jp.ipynb                |  615 [32m++[m
+ bash.exe.stackdump                                 |   35 [32m+[m
+ mintty.exe.stackdump                               |   19 [32m+[m
+ regresion_logistica/RL.ipynb                       |   93 [32m+[m
+ .../__pycache__/fuctions.cpython-311.pyc           |  Bin [31m0[m -> [32m2936[m bytes
+ regresion_logistica/fuctions.py                    |   54 [32m+[m
+ regresion_logistica/mein.py                        |   43 [32m+[m
+ 18 files changed, 9806 insertions(+)
+
+[33mcommit 124fa26ca18a92f416497b6f1c48b4ba0b786751[m
+Author: OmarRojas98 <109831706+OmarRojas98@users.noreply.github.com>
+Date:   Thu Aug 31 23:30:03 2023 -0500
+
+    Proyecto de Tratamiento de señales
+
+ "Proyecto_Adnea_del_sue\303\261o.ipynb" | 744 [32m+++++++++++++++++[m[31m---------------[m
+ 1 file changed, 388 insertions(+), 356 deletions(-)
+
+[33mcommit c314d86d847624ea061bd3168d30285fa6c6e1a7[m
+Author: OmarRojas98 <109831706+OmarRojas98@users.noreply.github.com>
+Date:   Thu Aug 31 20:56:56 2023 -0500
+
+    Proyecto de Tratamiento de señales
+
+ "Proyecto_Adnea_del_sue\303\261o.ipynb" | 1135 [32m+++++++++++++++++++++++++++++++[m
+ 1 file changed, 1135 insertions(+)
+
+[33mcommit af7596f25127855e2dbc3eb91d36b3346b792f3f[m
+Author: Your Name <you@example.com>
+Date:   Thu Aug 31 20:52:25 2023 -0500
+
+    primer commit
+
+ Bot WarUniverse/C_Puntero.js                 |    5 [32m+[m
+ Bot WarUniverse/alien10.png                  |  Bin [31m0[m -> [32m129257[m bytes
+ Bot WarUniverse/detector_windows.ipynb       |  232 [32m++++[m
+ Bot WarUniverse/tedectar_obejetos.py         |   68 [32m+[m
+ Sensor de temperatura/Proyect_Testing.ipynb  | 1920 [32m++++++++++++++++++++++++++[m
+ Sensor de temperatura/plot_serial_data_V2.py |   36 [32m+[m
+ Sensor de temperatura/plot_serial_data_v1.py |   85 [32m++[m
+ 7 files changed, 2346 insertions(+)
